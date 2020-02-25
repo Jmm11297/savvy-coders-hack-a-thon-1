@@ -26,3 +26,28 @@ img {
 }
 
 /* add your CSS styles below */
+#block13 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 24px;
+  font-style: white;
+  background-color: rgb(25, 112, 109);
+  border: 4px solid black;
+  border-radius: 50px;
+  text-align: center;
+}
+#block13 > a:link, #block13 > a:visited {
+  background-color: rgb(115, 189, 186);
+  color: white;
+  padding: 14px 20px;
+  text-align: center;
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 50px;
+}
+#block13 > a:hover, #block13 > a:active {
+  background-color: rgb(153, 115, 189);
+}
+#block13 > img {
+  border-radius: 30px;
+  margin: 5% 10%;
+}
